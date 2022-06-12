@@ -38,9 +38,6 @@ docker-compose up -d
 
 In the docker panel we must verify that all services are running.
 
-![smiley](docker-compose-executed.png.png){:height="36px" width="36px"}.
-
-
 ![docker-compose-executed](docker-compose-executed.png)
 
 The next step is to access the address http://localhost:8080/ and start using the web application.
