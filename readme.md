@@ -25,10 +25,10 @@ This project aims to shorten URLs. The architecture created has the following 4 
 
 ## How to Configure:
 
-To make testing easier, I decided to create a docker-based architecture, where all services communicate with each other. So it is not necessary to install the services manually on the user's machine, docker will provide everything for us.
+In order to make testing easier, I decided to create a docker-based architecture, where all services communicate with each other. So it is not necessary to install the services manually on the user's machine, docker will provide everything for us.
 First we need to ensure that we have docker installed on our machine.
 
-Click [here](https://docs.docker.com/get-docker/) to go to Docker download tutorial.
+Click [here](https://docs.docker.com/get-docker/) to go to Docker tutorial download.
 
 With docker running we must go to the root folder of this project, where we will find the file docker-compose-yml.
 Now we must execute the command below in some command-line interface:
@@ -53,7 +53,7 @@ Password: PgAdmin2021!
 
 ### Postgre DataBase Credentials
 
-Credentials to use whe we are creating connection using PgAdmin (Docker enviroment) :
+Credentials to use when we are creating connection using PgAdmin (Docker enviroment) :
 
 ```bash
 Host: postgres-db
